@@ -7,6 +7,7 @@ public class Gato {
 	private String nome;
 	private String cor;
 	private Interger idade;
+	
 	public Gato() {
 		
 	}

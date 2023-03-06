@@ -4,14 +4,14 @@ import br.com.dio.model.Gato;
 
 public class PrimeiroPrograma {
 
+
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		Gato gato = new Gato();
-		Livros livros = new Livros();
+		Livro livro = new Livro();
 		
 		System.out.println(gato);
-		System.out.println(Livros);
+		System.out.println(livro);
 		
 		/*int a = 2;* 
 		int b = 3;
@@ -21,7 +21,7 @@ public class PrimeiroPrograma {
 		
 }
 
-class Livros {
+class Livro {
 	private String nome;
 	private String npag;
 }
